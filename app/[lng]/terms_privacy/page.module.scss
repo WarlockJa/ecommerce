@@ -1,0 +1,76 @@
+@import '../globals.scss';
+
+.termsConditions {
+    min-height: calc(100vh - var(--navbar-height) - var(--limitedOffer-height));
+    background: var(--main-bgColor);
+    
+    .tcSection {
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        margin: auto;
+
+        h1 {
+            font-size: clamp(2rem, 6vmin, 5rem);
+        }
+
+        p {
+            text-align: center;
+        }
+    
+        ul {
+            li {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                font-size: 1.2rem;
+                padding-bottom: 1rem;
+
+                div {
+                    font-size: clamp(0.9rem, 3vmin, 1.5rem);
+                }
+
+                .faIcon {
+                    width: 2rem;
+                    height: 2rem;
+                }
+
+                .linkWrapper {
+                    pointer-events: none;
+
+                    .link {
+                        pointer-events: all;
+                        font-size: 1.2rem;
+                    }
+
+                    .linkImage {
+                        transition: opacity 200ms ease;
+                        opacity: 0;
+
+                        position: fixed;
+                        left: 0;
+                        right: 0;
+                        top: 0;
+                        z-index: 2;
+                    }
+
+                    &:hover {
+
+                        .linkImage {
+                            opacity: 0.9;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include mobile {
+
+    .termsConditions {
+
+        .tcSection {
+            width: 90vw;
+        }
+    }
+}

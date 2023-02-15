@@ -1,0 +1,16 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  experimental: {
+    appDir: true,
+  },
+  env: {
+    EMAIL_HOST: 'your smtp server',
+    EMAIL_USER: 'e-mail for nodemailer to send from',
+    EMAIL_PASS: 'e-mail send from password',
+    EMAIL_FEEDBACK: 'e-mail for nodemailer to send to',
+    STRIPE_PRIVATE_KEY: 'your secret key for Stripe',
+    CLIENT_URL: 'URL of the deployed application'
+  }
+}
+
+module.exports = nextConfig

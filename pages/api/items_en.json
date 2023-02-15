@@ -1,0 +1,197 @@
+{
+    "items":
+    [
+        {
+            "id": 0,
+            "image": "/images/ahmet-hamdi-70iu5LQBzWg-unsplash.jpg",
+            "width": 3735,
+            "height": 2500,
+            "price": 74.33,
+            "title": "Moored Penguin",
+            "description": "Compact and sleek. It will always find a way out of your pocket.",
+            "credentials": "Picture by ahmet hamdi",
+            "credHref": "https://unsplash.com/@neyn"
+        },
+        {
+            "id": 1,
+            "image": "/images/zuzanna-szczepanska-ayfiHJhrzn8-unsplash.jpg",
+            "width": 3072,
+            "height": 4608,
+            "price": 517.18,
+            "title": "Crumpô",
+            "description": "Store more by storing less! These bottlô may fit less liquid than an ordinary bottle, but you can fit more of them in the same space! So buy more!",
+            "credentials": "Picture by Zuzanna Szczepańska",
+            "credHref": "https://unsplash.com/@suzyane"
+        },
+        {
+            "id": 2,
+            "image": "/images/alex-perez-wEgR12N01Tk-unsplash.jpg",
+            "width": 2261,
+            "height": 3391,
+            "price": 49.99,
+            "title": "InvisiBlue",
+            "description": "It's almost as if it's not there... Better check.",
+            "credentials": "Picture by Alex Perez",
+            "credHref": "https://unsplash.com/@a2eorigins"
+        },
+        {
+            "id": 3,
+            "image": "/images/erik-mclean-GjCx5KhulZI-unsplash.jpg",
+            "width": 3648,
+            "height": 5472,
+            "price": 59.96,
+            "title": "Plask",
+            "description": "It's like flask, but with \"P\" in it.",
+            "credentials": "Picture by Eric Mclean",
+            "credHref": "https://unsplash.com/@introspectivedsgn"
+        },
+        {
+            "id": 4,
+            "image": "/images/julia-joppien-krCTg4cKtVQ-unsplash.jpg",
+            "width": 3264,
+            "height": 4896,
+            "price": 679.66,
+            "title": "Desertflage",
+            "description": "Invisible in the sand as all things should be. Now comes in packs of twenty! You know you'll lose some.",
+            "credentials": "Picture by Julia Joppien",
+            "credHref": "https://unsplash.com/@shots_of_aspartame"
+        },
+        {
+            "id": 5,
+            "image": "/images/brian-yurasits-y8k-dMPNWNI-unsplash.jpg",
+            "width": 3000,
+            "height": 1671,
+            "price": 413.57,
+            "title": "Pet Bottlô",
+            "description": "Why not buy yourself a friend? We call it Antonio. You can call it whatever you want, it doesn't listen anyway.",
+            "credentials": "Picture by Brian Yurasits",
+            "credHref": "https://unsplash.com/@brian_yuri"
+        },
+        {
+            "id": 6,
+            "image": "/images/ananda-putra-fiksis-rrWJZKAMY80-unsplash.jpg",
+            "width": 1829,
+            "height": 2751,
+            "price": 310.12,
+            "title": "A-bunch-o Bottlô",
+            "description": "A starter, three bottlô kit for your everyday hydration! There's four on the picture but you only get three.",
+            "credentials": "Picture by Ananda Putra Fiksis",
+            "credHref": "https://unsplash.com/@fiksis"
+        },
+        {
+            "id": 7,
+            "image": "/images/charlesdeluvio-edBR3b2JAuA-unsplash.jpg",
+            "width": 4328,
+            "height": 5410,
+            "price": 40.20,
+            "title": "Ôrdinaire",
+            "description": "Look, it's not all about style or function. Sometimes you just need a bottle and Ôrdinaire is here for you.",
+            "credentials": "Picture by charlesdeluvio",
+            "credHref": "https://unsplash.com/@charlesdeluvio"
+        },
+        {
+            "id": 8,
+            "image": "/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash.jpg",
+            "width": 4471,
+            "height": 5589,
+            "price": 439.19,
+            "title": "Advent",
+            "description": "Behold the first walking bottlô with experimental technology Sea Legs™ in action! All instances of Advent bottlô walking away from their owner are probably their fault.",
+            "credentials": "Picture by Ishan @seefromthesky",
+            "credHref": "https://unsplash.com/@seefromthesky"
+        },
+        {
+            "id": 9,
+            "image": "/images/mae-mu-iB1vVF6tkFQ-unsplash.jpg",
+            "width": 2053,
+            "height": 2566,
+            "price": 145.79,
+            "title": "Silence of the Bottlô",
+            "description": "Why count sheep when you can count Bottlô? And if that doesn't cure your insomnia the contents surely will.",
+            "credentials": "Picture by Mae Mu",
+            "credHref": "https://unsplash.com/@picoftasty"
+        },
+        {
+            "id": 10,
+            "image": "/images/markus-spiske-Teyrhlv0jbA-unsplash.jpg",
+            "width": 3500,
+            "height": 2333,
+            "price": 374.39,
+            "title": "Spôt",
+            "description": "Wherever this bottlô goes this petal looking mold follows. According to our sales statistics - a perfect gift!",
+            "credentials": "Picture by Markus Spiske",
+            "credHref": "https://unsplash.com/@markusspiske"
+        },
+        {
+            "id": 11,
+            "image": "/images/njegos-k-gSg0_8RPQfs-unsplash.jpg",
+            "width": 4962,
+            "height": 3308,
+            "price": 474.45,
+            "title": "Pupplô",
+            "description": "A land version of your fvourite Pet Bottlô. Puppy is not included. And so is the leash.",
+            "credentials": "Picture by Njegos K",
+            "credHref": "https://unsplash.com/@nyegi"
+        },
+        {
+            "id": 12,
+            "image": "/images/noppadon-manadee-g016_NJoOUk-unsplash.jpg",
+            "width": 3264,
+            "height": 4896,
+            "price": 224.15,
+            "title": "Eruptiôn",
+            "description": "Unleash a powerful blast of liquid with our 20 psi sealed Eruptiôn. Do not aim Eruptiôn at yourself, other people, animals, and/or light structures.",
+            "credentials": "Picture by Noppadon Manadee",
+            "credHref": "https://unsplash.com/@nutnp"
+        },
+        {
+            "id": 13,
+            "image": "/images/roberto-sorin-ZxHSLZ9gqV8-unsplash.jpg",
+            "width": 4896,
+            "height": 3264,
+            "price": 133.98,
+            "title": "Desertflage single",
+            "description": "Test your luck by buying a Desertflage single. And come back buying our twenty pack bundle once you've lost it!",
+            "credentials": "Picture by Roberto Sorin",
+            "credHref": "https://unsplash.com/@roberto_sorin"
+        },
+        {
+            "id": 14,
+            "image": "/images/steve-johnson-N-MqWXXZvNY-unsplash.jpg",
+            "width": 3328,
+            "height": 1864,
+            "price": 1024.64,
+            "title": "Lightô",
+            "description": "This bottlô comes with an entire photo set so it can look as cool as this image of it. Assembly required.",
+            "credentials": "Picture by Steve Johnson",
+            "credHref": "https://unsplash.com/@steve_j"
+        },
+        {
+            "id": 15,
+            "image": "/images/why-are-disposable-water-bottles-harmful-to-the-environment-1200x642.webp",
+            "width": 1200,
+            "height": 642,
+            "price": 812.94,
+            "title": "Sturgeôn",
+            "description": "This genetically engineered bottlô shares most of its DNA with a fish. Buy one and get a lifetime replacement supply every time Sturgeôn swims away to spawn!",
+            "credentials": "",
+            "credHref": ""
+        },
+        {
+            "id": 16,
+            "image": "/images/zeynep-sumer-3SLLh2OEme8-unsplash.jpg",
+            "width": 4718,
+            "height": 3145,
+            "price": 414.21,
+            "title": "Stegnotíriô",
+            "description": "A unique storage design for all your bottlôs! A must have for any collectôr!",
+            "credentials": "Picture by Zeynep Sümer",
+            "credHref": "https://unsplash.com/@ispywithmylittleeye"
+        }
+    ],
+    "info":
+    {
+        "project": "E-Commerce mock website",
+        "function": "Items data for the shop EN"
+    }
+}

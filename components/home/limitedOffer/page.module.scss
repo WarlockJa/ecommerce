@@ -1,0 +1,12 @@
+.limitedOffer {
+    height: var(--limitedOffer-height);
+    background-color: var(--limitedOffer-bgColor);
+    color: var(--limitedOffer-fontColor);
+    text-align: center;
+    font-size: clamp(0.8rem, 3vmin, 1rem);
+    
+    .shopLink {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}

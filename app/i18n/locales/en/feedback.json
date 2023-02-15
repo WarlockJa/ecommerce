@@ -1,0 +1,8 @@
+{
+    "sending": "Sending Feedback...",
+    "error": "Something went wrong...",
+    "success": "Thank you for your feedback!",
+    "send": "Send Feedback",
+    "message-placeholder": "Your message",
+    "submit-button": "Submit"
+}

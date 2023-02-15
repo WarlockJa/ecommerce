@@ -1,0 +1,6 @@
+{
+    "title": "О сайте",
+    "disclaimer": "Этот сайт интернет-магазин сделан в учебных целях. Он построен на библиотеке React используя технологии NextJS 13, Zustand, i18Next, Stripe, TypeScript, Sass, Nodemailer, Fontawesome. Среда разработки - MS VSCode.",
+    "links": "Исходный код веб-сайта доступен по ссылке: ",
+    "author": "Автор веб-сайта WarlockJa"
+}

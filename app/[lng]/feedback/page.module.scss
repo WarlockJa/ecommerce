@@ -1,0 +1,81 @@
+.feedbackForm {
+    height: calc(100vh - var(--navbar-height));
+    font-family: var(--font-mono);
+    background: var(--main-bgColor);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    .feedbackInputWrapper {
+        width: 48rem;
+        max-width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        
+        & > * {
+            font-size: 1.3rem;
+        }
+
+        label {
+            text-align: center;
+            padding: 0.5rem;
+        }
+
+        textarea, button {
+            border: 0.3rem solid #0003;
+            transition: border 300ms ease;
+            transition: background 300ms ease;
+            box-shadow: 0 0 1rem .1rem var(--feedback-shadowColor);
+        }
+    
+        textarea {
+            resize: none;
+            background: transparent;
+            outline: none;
+            padding: 1rem;
+            border-bottom: none;
+            
+            &:focus {
+                background-color: var(--feedback-textareaBgColor-focus);
+            }
+        }
+        
+        button {
+            border-top: none;
+            padding: 0.5rem;
+            cursor: pointer;
+            
+            &:hover {
+                background-color: var(--feedback-textareaBgColor-focus);
+            }
+        }
+
+        &:hover {
+            textarea {
+                border: 0.3rem solid var(--feedback-boderColor);
+                border-bottom: none;
+            }
+
+            button {
+                border: 0.3rem solid var(--feedback-boderColor);
+                border-top: none;
+            }
+        }
+    }
+
+    // dreams of FireFox being a decent browser
+    // &:has(textarea:hover, button:hover) {
+        
+    //     textarea {
+    //         border: 0.3rem solid var(--feedback-boderColor);
+    //         border-bottom: none;
+    //     }
+    //     button {
+    //         border: 0.3rem solid var(--feedback-boderColor);
+    //         border-top: none;
+    //     }
+    // }
+}

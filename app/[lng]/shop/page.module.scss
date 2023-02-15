@@ -1,0 +1,130 @@
+@import '../globals.scss';
+
+.shop {
+    padding: 0 10vw;
+    background: var(--main-bgColor);
+
+    p {
+        text-align: center;
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .smallImageGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1px;
+    }
+    
+    .largeImageGrid {
+        display: grid;
+    }
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    
+    border: 0.5rem solid var(--image-borderColor);
+}
+
+.imageContainer {
+    position: relative;
+    display: flex;
+
+    .imageOverlay {
+        opacity: 0;
+        transition: opacity 300ms ease;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        padding: 1rem;
+        height: 100%;
+
+        background-color: var(--imageOverlay-bgColor);
+        color: var(--fontColor);
+        text-shadow: 1px 1px 2px var(--fontColor-inverted);
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 5fr 1fr 3fr 0.2fr;
+
+        p {
+            text-align: left;
+            font-size: clamp(1rem, 3vmin, 1.5rem);
+        }
+
+        .itemDescriptionHeader {
+            grid-row: 1 / 2;
+            font-weight: 600;
+        }
+
+        .itemDescriptionBody {
+            grid-row: 2 / 3;
+            padding-top: 1rem;
+        }
+
+        .itemShopSection {
+            grid-row: 3 / 4;
+            display: flex;
+            align-items: center;
+            
+            .itemShopSectionLink {
+                
+                .itemShopMyButtonWrapper {
+                    display: flex;
+                    
+                    & > * {
+                        padding: 1rem 0 1rem 1rem;
+                        transition: color 300ms ease, padding 300ms ease;
+    
+                        color: var(--imageOverlay-buttonFontColor);
+                        text-shadow: 1px 1px 2px var(--fontColor-inverted);
+                        font-family: var(--font-mono);
+                    }
+                }
+                
+                &:hover {
+                    font-weight: 900;
+                    
+                    .itemShopMyButtonWrapper {
+
+                        & > * {
+                            padding: 1rem;
+                            background-color: var(--imageOverlay-ShopSection-bgColor);
+                            text-shadow: none;
+                            color: var(--fontColor-hover);
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .imageCredentials {
+            grid-row: -1 / -2;
+            font-size: var(--credentials-fontSize);
+        }
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+@include tablet {
+    .shop {
+
+        .smallImageGrid {
+            grid-template-columns: auto;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+    }
+}
+
+@include mobile {
+    .shop {
+        padding: 0;
+    }
+}

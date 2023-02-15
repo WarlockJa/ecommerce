@@ -1,0 +1,197 @@
+{
+    "items":
+    [
+        {
+            "id": 0,
+            "image": "/images/ahmet-hamdi-70iu5LQBzWg-unsplash.jpg",
+            "width": 3735,
+            "height": 2500,
+            "price": 74.33,
+            "title": "Пришвартованный Пингвин",
+            "description": "Компактный и изящный. Он всегда найдёт выход из твоего кармана.",
+            "credentials": "Автор фото ahmet hamdi",
+            "credHref": "https://unsplash.com/@neyn"
+        },
+        {
+            "id": 1,
+            "image": "/images/zuzanna-szczepanska-ayfiHJhrzn8-unsplash.jpg",
+            "width": 3072,
+            "height": 4608,
+            "price": 517.18,
+            "title": "Смяткô",
+            "description": "Храни больше храня меньше! Пусть эти бутылки не так вместительны, зато ты можешь вместить больше бутылок! Так купи больше!",
+            "credentials": "Автор фото Zuzanna Szczepańska",
+            "credHref": "https://unsplash.com/@suzyane"
+        },
+        {
+            "id": 2,
+            "image": "/images/alex-perez-wEgR12N01Tk-unsplash.jpg",
+            "width": 2261,
+            "height": 3391,
+            "price": 49.99,
+            "title": "НевиСинька",
+            "description": "Такое ощущение, что бутылки и нет... Надо бы проверить",
+            "credentials": "Автор фото Alex Perez",
+            "credHref": "https://unsplash.com/@a2eorigins"
+        },
+        {
+            "id": 3,
+            "image": "/images/erik-mclean-GjCx5KhulZI-unsplash.jpg",
+            "width": 3648,
+            "height": 5472,
+            "price": 59.96,
+            "title": "Пляга",
+            "description": "Это как фляга, только \"Пляга\"",
+            "credentials": "Автор фото Eric Mclean",
+            "credHref": "https://unsplash.com/@introspectivedsgn"
+        },
+        {
+            "id": 4,
+            "image": "/images/julia-joppien-krCTg4cKtVQ-unsplash.jpg",
+            "width": 3264,
+            "height": 4896,
+            "price": 679.66,
+            "title": "Пустефляга",
+            "description": "Невидима на песке, как всему должно быть. Теперь идёт комплектом из двадцати штук! Ты же знаешь, что часть потеряется.",
+            "credentials": "Автор фото Julia Joppien",
+            "credHref": "https://unsplash.com/@shots_of_aspartame"
+        },
+        {
+            "id": 5,
+            "image": "/images/brian-yurasits-y8k-dMPNWNI-unsplash.jpg",
+            "width": 3000,
+            "height": 1671,
+            "price": 413.57,
+            "title": "Бутылка-питомец",
+            "description": "Почему бы не купить себе друга? Мы зовём его Антонио! Ты можешь звать его как хочешь, всё равно не отзывается.",
+            "credentials": "Автор фото Brian Yurasits",
+            "credHref": "https://unsplash.com/@brian_yuri"
+        },
+        {
+            "id": 6,
+            "image": "/images/ananda-putra-fiksis-rrWJZKAMY80-unsplash.jpg",
+            "width": 1829,
+            "height": 2751,
+            "price": 310.12,
+            "title": "Россыпь Бутылок",
+            "description": "Три бутылки для начала твоей коллекции! Да, на картинке четыре, но в комплекте только три.",
+            "credentials": "Автор фото Ananda Putra Fiksis",
+            "credHref": "https://unsplash.com/@fiksis"
+        },
+        {
+            "id": 7,
+            "image": "/images/charlesdeluvio-edBR3b2JAuA-unsplash.jpg",
+            "width": 4328,
+            "height": 5410,
+            "price": 40.20,
+            "title": "Ôбычная",
+            "description": "Не всё можно измерить стилем или функцией. Иногда тебе просто нужна бутылка и Ôбычная всегда здесь.",
+            "credentials": "Автор фото charlesdeluvio",
+            "credHref": "https://unsplash.com/@charlesdeluvio"
+        },
+        {
+            "id": 8,
+            "image": "/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash.jpg",
+            "width": 4471,
+            "height": 5589,
+            "price": 439.19,
+            "title": "Прихôд",
+            "description": "Первая ходячая бутылка на основе экспериментальной технологии Морская Походка™. Все случаи, когда Прихôд убегает от хозяев скорее всего их вина.",
+            "credentials": "Автор фото Ishan @seefromthesky",
+            "credHref": "https://unsplash.com/@seefromthesky"
+        },
+        {
+            "id": 9,
+            "image": "/images/mae-mu-iB1vVF6tkFQ-unsplash.jpg",
+            "width": 2053,
+            "height": 2566,
+            "price": 145.79,
+            "title": "Молчание Бутылок",
+            "description": "Зачем считать овец, когда можно считать бутылки? А если это не поможет уснуть, то их содержимое наверняка.",
+            "credentials": "Автор фото Mae Mu",
+            "credHref": "https://unsplash.com/@picoftasty"
+        },
+        {
+            "id": 10,
+            "image": "/images/markus-spiske-Teyrhlv0jbA-unsplash.jpg",
+            "width": 3500,
+            "height": 2333,
+            "price": 374.39,
+            "title": "Пятнô",
+            "description": "Куды бы Пятнô ни попала лепестковая плесень следует за ней. Согласно нашей статистике продаж - идеальный подарок!",
+            "credentials": "Автор фото Markus Spiske",
+            "credHref": "https://unsplash.com/@markusspiske"
+        },
+        {
+            "id": 11,
+            "image": "/images/njegos-k-gSg0_8RPQfs-unsplash.jpg",
+            "width": 4962,
+            "height": 3308,
+            "price": 474.45,
+            "title": "Щенôк",
+            "description": "Наземная версия всеми любимой Бутылки-питомца. Щенок в комплект не входит. И поводок тоже.",
+            "credentials": "Автор фото Njegos K",
+            "credHref": "https://unsplash.com/@nyegi"
+        },
+        {
+            "id": 12,
+            "image": "/images/noppadon-manadee-g016_NJoOUk-unsplash.jpg",
+            "width": 3264,
+            "height": 4896,
+            "price": 224.15,
+            "title": "Извержение",
+            "description": "Освободи ударную волну жидкости из нашего 20-ти атмосферного Извержения. Не направляйте на себя, людей, животных и лёгкие постройки.",
+            "credentials": "Автор фото Noppadon Manadee",
+            "credHref": "https://unsplash.com/@nutnp"
+        },
+        {
+            "id": 13,
+            "image": "/images/roberto-sorin-ZxHSLZ9gqV8-unsplash.jpg",
+            "width": 4896,
+            "height": 3264,
+            "price": 133.98,
+            "title": "Одинокая Пустефляга",
+            "description": "Испытай свою удачу купив одну Пустефлягу! И приходи за нашим комплектом из 20 штук, когда она потеряется!",
+            "credentials": "Автор фото Roberto Sorin",
+            "credHref": "https://unsplash.com/@roberto_sorin"
+        },
+        {
+            "id": 14,
+            "image": "/images/steve-johnson-N-MqWXXZvNY-unsplash.jpg",
+            "width": 3328,
+            "height": 1864,
+            "price": 1024.64,
+            "title": "Светôч",
+            "description": "Эта бутылка идёт с целой мини фотостудией, чтобы Вы могли любоваться ей как на картинке. Требуется сборка.",
+            "credentials": "Автор фото Steve Johnson",
+            "credHref": "https://unsplash.com/@steve_j"
+        },
+        {
+            "id": 15,
+            "image": "/images/why-are-disposable-water-bottles-harmful-to-the-environment-1200x642.webp",
+            "width": 1200,
+            "height": 642,
+            "price": 812.94,
+            "title": "Ôсётр",
+            "description": "Эта чудо генной инженерии больше рыба чем бутылка. Купи Ôсётр и получи пожизенную подписку на замену, каждый раз когда она уплывёт на нерест!",
+            "credentials": "",
+            "credHref": ""
+        },
+        {
+            "id": 16,
+            "image": "/images/zeynep-sumer-3SLLh2OEme8-unsplash.jpg",
+            "width": 4718,
+            "height": 3145,
+            "price": 414.21,
+            "title": "Stegnotíriô",
+            "description": "Уникальный дизайн для хранения всех твоих бутылок! Первая необходимость для любого кôллекционера",
+            "credentials": "Автор фото Zeynep Sümer",
+            "credHref": "https://unsplash.com/@ispywithmylittleeye"
+        }
+    ],
+    "info":
+    {
+        "project": "E-Commerce mock website",
+        "function": "Items data for the shop RU"
+    }
+}

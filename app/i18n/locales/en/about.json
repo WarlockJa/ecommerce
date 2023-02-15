@@ -1,0 +1,6 @@
+{
+    "title": "About",
+    "disclaimer": "This E-Commerce website is made for educational purposes. It is built with React using NextJS 13, Zustand, i18Next, Stripe, TypeScript, Sass, Nodemailer, Fontawesome. IDE - MS VSCode.",
+    "links": "You can find source code for this website following the link: ",
+    "author": "Author of the website WarlockJa"
+}

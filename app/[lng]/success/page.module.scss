@@ -1,0 +1,13 @@
+.purchaseSuccess {
+    height: calc(100vh - var(--navbar-height));
+    background: var(--main-bgColor);
+
+    p {
+        text-align: center;
+    }
+
+    .Link {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}

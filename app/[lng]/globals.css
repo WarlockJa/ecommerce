@@ -1,0 +1,105 @@
+:root {
+  --navbar-height: 60px;
+  --navbar-bgColor: lightcyan;
+  --limitedOffer-height: 20px;
+  --cartHeaderHeight: 4.2rem;
+  --cartFooterHeight: 4.2rem;
+  --credentials-fontSize: 0.7rem;
+  --credentials-fontColor: #121212;
+
+  --feedback-boderColor: rgb(77, 93, 100);
+  --feedback-textareaBgColor-focus: rgba(146, 178, 219, 0.6);
+  --feedback-shadowColor: lightblue;
+  --limitedOffer-bgColor: rgb(26, 26, 197);
+  --limitedOffer-fontColor: #FEEE;
+  --heroImageOverlay-fontColor-inverted: #000C;
+  --heroImageOverlay-fontColor: #FFFC;
+  --heroImageOverlay-fontSize: 2.5rem;
+  --headers-fontColor: rgb(61, 61, 61);
+  --languageMenu-bgColor-hover: rgb(186, 238, 238);
+  --testimonials-bgColor: rgba(224, 255, 255, 0.75);
+  --dividerLine-color: #0003;
+  --dividerThiccRed-bgColor: crimson;
+  --fontColor: #121212;
+  --fontColor-inverted: #FEFEFE;
+  --fontColor-hover: #FFFC;
+  --image-borderColor: rgb(193, 253, 255);
+  --imageOverlay-bgColor: #fff6;
+  --imageOverlay-ShopSection-bgColor: darkblue;
+  --imageOverlay-buttonFontColor: #121212;
+  --socials-fontColor: #0008;
+  --socials-fontColor-hover: rgb(0, 54, 85);
+  --footer-bgColor: lightcyan;
+  --footer-fontSize: 1rem;
+  --cartOverlay-bgColor: #0004;
+  --cart-bgColor: white;
+  --cart-buttonColor: white;
+  --cart-buttonbgColor: darkblue;
+  --cart-buttonbgColor-hover: white;
+  --cart-removeItem-bgColor: rgb(68, 22, 22);
+  --cart-itemBoxShadowColor: lightblue;
+  --cart-borderColor: #43A8;
+
+  --main-bgColor: linear-gradient(rgb(144, 255, 255), lightcyan);
+
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --limitedOffer-bgColor: rgb(13, 125, 177);
+    --headers-fontColor: rgb(206, 206, 206);
+    --testimonials-bgColor: rgba(55, 63, 63, 0.75);
+    --dividerLine-color: #0003;
+    --image-borderColor: rgb(58, 98, 110);
+    --socials-fontColor: #FFF8;
+    --navbar-bgColor: rgb(0, 100, 139);
+    --footer-bgColor: darkcyan;
+    --main-bgColor: linear-gradient(rgb(2, 86, 124), darkcyan);
+    --cart-bgColor: rgb(53,53,53);
+    --cart-buttonbgColor-hover: rgb(148, 210, 235);
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  color: var(--headers-fontColor);
+  text-align: center;
+  padding: 1rem;
+  font-size: 4rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
