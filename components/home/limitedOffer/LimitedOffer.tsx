@@ -1,11 +1,17 @@
-import styles from './page.module.scss'
-import { useTranslation } from '@/app/i18n'
-import { LanguagePropsType } from '@/index'
+import { TFunction } from "i18next";
+import styles from "./page.module.scss";
 
-export default async function LimitedOffer(props: LanguagePropsType) {
-    const { lng } = props
-    const { t } = await useTranslation(lng, 'limitedOffer')
-    return (
-        <section className={styles.limitedOffer}>{t('offer')} <span className={styles.shopLink}><a href='/shop#gifts'>{t('shoplink')}</a></span></section>
-    )
+export default function LimitedOffer({
+  t,
+}: {
+  t: TFunction<string, undefined>;
+}) {
+  return (
+    <section className={styles.limitedOffer}>
+      {t("offer")}{" "}
+      <span className={styles.shopLink}>
+        <a href="/shop#gifts">{t("shoplink")}</a>
+      </span>
+    </section>
+  );
 }
